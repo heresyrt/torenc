@@ -37,19 +37,18 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4">
               <div>
                 <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                  소일 네일링 옹벽
+                  절토부 옹벽
                 </h2>
                 <div>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     - 원지반을 보강하여 전단강도증가 → 안정성 확보<br/>
                     - 공종단순, 시공관리 간편 → 공기단축<br/>
-                    - 기성제작 패널 사용으로 동절기 시공 가능<br/>
-                    - 두부가 노출되지 않아 일체감 형성 미관상 유리함 확보
+                    - 기성제작 패널 사용으로 동절기 시공 가능
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded-sm">
                     <div className="-mx-4 flex flex-wrap">
                       <div className="w-full px-4">
-                        <div className="relative mx-auto aspect-25/10 max-w-[1600px]">
+                        <div className="relative mx-auto aspect-25/22 max-w-[800px]">
                           <Image
                             src="/images/buField/buField2_desc_w.png"
                             alt="about-image"

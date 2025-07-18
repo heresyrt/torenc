@@ -29,7 +29,7 @@ const featuresData: Feature[] = [
   {
     id: 6,
     image: "/images/buField/buField3-6.jpg",
-    title: "마감블럭설치",
+    title: "설치마감",
   },
 ];
 export default featuresData;

@@ -47,7 +47,7 @@ const BlogDetailsPage = () => {
                     지지력이 보강되도록 함으로서 옹벽의 내구성 및 안정성을 향상시킨  옹벽<br/>
                     - 굴착면에 위치한 H-Pile을 보강하여 토압에 충분히 견딜 수 있는 H-Pile 변위 저항 구조
                   </p>
-                  <div className="mb-10 w-full overflow-hidden rounded-sm">
+                  {/* <div className="mb-10 w-full overflow-hidden rounded-sm">
                     <div className="-mx-4 flex flex-wrap">
                       <div className="w-full px-4">
                         <div className="relative mx-auto aspect-25/10 max-w-[1600px]">
@@ -66,7 +66,7 @@ const BlogDetailsPage = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

@@ -24,12 +24,12 @@ const featuresData: Feature[] = [
   {
     id: 5,
     image: "/images/buField/buField-nail5.jpg",
-    title: "PC 패널 설치",
+    title: "PC패널 설치",
   },
   {
     id: 6,
     image: "/images/buField/buField-nail6.jpg",
-    title: "마감작업",
+    title: "설치마감",
   },
 ];
 export default featuresData;

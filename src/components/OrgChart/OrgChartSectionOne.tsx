@@ -23,7 +23,7 @@ const AboutSectionOne = () => {
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full">
-              <div className="relative mx-auto aspect-22/8 max-w-[1000px]">
+              <div className="relative mx-auto aspect-25/8 max-w-[1000px]">
                 <Image
                   src="/images/orgChart/orgChart.png"
                   alt="조직도"

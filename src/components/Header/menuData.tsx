@@ -51,7 +51,7 @@ const menuData: Menu[] = [
       },
       {
         id: 32,
-        title: "소일 네일링",
+        title: "절토부옹벽",
         path: "/buField2",
         newTab: false,
       },

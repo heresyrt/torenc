@@ -6,7 +6,7 @@ const blogData: Blog[] = [
     title: "정읍 내장산리조트",
     paragraph: "",
     image: "/images/construction/construction1.jpg",
-    tags: ["소일네일링"],
+    tags: ["절토부옹벽"],
     publishDate: "2025",
   },
   {
@@ -30,7 +30,7 @@ const blogData: Blog[] = [
     title: "화성 석포리 현장",
     paragraph: "",
     image: "/images/construction/construction4.jpg",
-    tags: ["소일네일링"],
+    tags: ["절토부옹벽"],
     publishDate: "2025",
   },
 ];
