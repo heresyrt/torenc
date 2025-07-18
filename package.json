@@ -3,9 +3,9 @@
   "version": "2.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3000",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 80",
     "lint": "next lint"
   },
   "dependencies": {
@@ -31,10 +31,5 @@
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.3.3"
-  },
-  "scripts": {
-    "dev": "next -p 3000",
-    "build": "next build",
-    "start": "next start -p 80",
-  },
+  }
 }
