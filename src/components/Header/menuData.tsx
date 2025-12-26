@@ -73,12 +73,26 @@ const menuData: Menu[] = [
         path: "/buField5",
         newTab: false,
       },
+      /*
+      {
+        id: 36,
+        title: "산벽 옹벽",
+        path: "/buField6",
+        newTab: false,
+      },
+      */
     ]
   },
   {
     id: 4,
     title: "시공실적",
     path: "/construction",
+    newTab: false
+  },
+  {
+    id: 5,
+    title: "인증현황",
+    path: "/certification",
     newTab: false
   },
 ];
