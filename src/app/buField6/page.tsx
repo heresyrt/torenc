@@ -37,11 +37,22 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4">
               <div>
                 <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                  산벽 옹벽
+                  산석옹벽이란?
                 </h2>
                 <div>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    - 산벽 옹벽설명
+                    - 자연 발파석(산석)에 ANCHOR와 STAINLESS WIRE로 고정하여 전도의 위험이 없고 안정적이며 견고한 옹벽의 기능을 수행함과 동시에
+                     내구성 및 조경효과를 더하여 훼손된 자연의 생태를 복원하고 미적 경관을 창출하는 옹벽설치 공법입니다.
+                  </p>
+                </div>
+                <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
+                  산석 옹벽 장점
+                </h2>
+                <div>
+                  <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    -자연석.발파석 등을 중력식으로 쌓는 경관옹벽으로, 높은 흙깍기구간에 적용 및 설치놓에에 제한이 없음.<br/>
+                    - 기존 선석의 겹침시공에 비해 평면시공으로 미관이 수려하고 자재비가 절감.<br/>
+                    - 돌틈식재와 중간 소단에 식재가 가능하여 관광지 경관성 및 미관성 증대.
                   </p>
                 </div>
               </div>
@@ -91,7 +102,7 @@ const BlogDetailsPage = () => {
         isOpen={isOpen}
         onClose={() => setOpen(false)}
         channel="youtube"
-        videoId="ncjvg6SKQso"
+        videoId="He2leoOJEug"
       />
     </>
   );

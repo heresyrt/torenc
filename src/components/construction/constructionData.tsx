@@ -33,5 +33,13 @@ const blogData: Blog[] = [
     tags: ["절토부옹벽"],
     publishDate: "2025",
   },
+  {
+    id: 5,
+    title: "평택 가재지구 자연석(산석)옹벽 공사",
+    paragraph: "",
+    image: "/images/construction/construction5.jpg",
+    tags: ["산석옹벽"],
+    publishDate: "2025",
+  },
 ];
 export default blogData;

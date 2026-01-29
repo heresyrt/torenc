@@ -73,14 +73,12 @@ const menuData: Menu[] = [
         path: "/buField5",
         newTab: false,
       },
-      /*
       {
         id: 36,
-        title: "산벽 옹벽",
+        title: "산석 옹벽",
         path: "/buField6",
         newTab: false,
       },
-      */
     ]
   },
   {
