@@ -26,7 +26,7 @@ const Header = () => {
     window.addEventListener("scroll", handleStickyNavbar);
     
     const handleContextMenu = (e) => {
-      e.preventDefault();
+      //e.preventDefault();
     };
 
     document.addEventListener('contextmenu', handleContextMenu);
@@ -167,7 +167,7 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <p>
+                <p className="text-sm">
                   Tel : 031-869-3453
                 </p>
                 <div>

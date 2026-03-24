@@ -8,7 +8,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
     <div className="w-full">
       <Link href={link}>
         <div className="wow fadeInUp" data-wow-delay=".15s">
-          <div className="bg-primary/10 text-primary mb-10 flex h-[200px] w-[430px] items-center justify-center rounded-md" style={{position: "relative"}}>
+          <div className="bg-primary/10 text-primary mb-10 flex h-[200px] w-[350px] items-center justify-center rounded-md" style={{position: "relative"}}>
             <Image src={image} fill alt=""/>
           </div>
           <h3 className="mb-5 text-xl font-bold text-black sm:text-2xl lg:text-xl xl:text-2xl dark:text-white">
