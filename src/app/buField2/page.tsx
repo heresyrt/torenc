@@ -45,26 +45,6 @@ const BlogDetailsPage = () => {
                     - 공종단순, 시공관리 간편 → 공기단축<br/>
                     - 기성제작 패널 사용으로 동절기 시공 가능
                   </p>
-                  <div className="mb-10 w-full overflow-hidden rounded-sm">
-                    <div className="-mx-4 flex flex-wrap">
-                      <div className="w-full px-4">
-                        <div className="relative mx-auto aspect-25/22 max-w-[800px]">
-                          <Image
-                            src="/images/buField/buField2_desc_w.png"
-                            alt="about-image"
-                            fill
-                            className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
-                          />
-                          <Image
-                            src="/images/buField/buField2_desc.png"
-                            alt="about-image"
-                            fill
-                            className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
