@@ -167,8 +167,8 @@ const Header = () => {
                 </nav>
               </div>
               <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <p className="text-sm">
-                  Tel : 031-869-3453
+                <p style={{fontSize: '12px'}}>
+                  031-869-3453
                 </p>
                 <div>
                   <ThemeToggler />
