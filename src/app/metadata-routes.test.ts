@@ -16,6 +16,7 @@ describe("정적 메타데이터 라우트", () => {
   it("홈과 모든 사업 상세 페이지를 사이트맵에 제공한다", () => {
     expect(sitemap().map(({ url }) => url)).toEqual([
       "https://torenc.com",
+      "https://torenc.com/location",
       ...siteData.businesses.map(({ slug }) => `https://torenc.com/business/${slug}`),
     ]);
   });
