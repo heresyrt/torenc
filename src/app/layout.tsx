@@ -5,6 +5,7 @@ import { siteData } from "@/data/site-data";
 import "./globals.css";
 
 const siteUrl = "https://torenc.com";
+const searchDescription = "더오름 이앤씨는 옹벽 설계·시공 전문 기업으로, 안전한 토목·건설 솔루션을 제공합니다.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
     default: `${siteData.company.name} | 토목·건설 엔지니어링`,
     template: `%s | ${siteData.company.name}`,
   },
-  description: siteData.company.description,
+  description: searchDescription,
   formatDetection: {
     telephone: false,
   },
@@ -23,12 +24,12 @@ export const metadata: Metadata = {
     url: "/",
     siteName: siteData.company.name,
     title: `${siteData.company.name} | 토목·건설 엔지니어링`,
-    description: siteData.company.description,
+    description: searchDescription,
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteData.company.name} | 토목·건설 엔지니어링`,
-    description: siteData.company.description,
+    description: searchDescription,
   },
   verification: {
     other: {
