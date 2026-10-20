@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --navy-950: #2c3f4f;
+  --navy-900: #354b5c;
+  --navy-800: #425b6c;
+  --concrete-50: #f8f6f2;
+  --concrete-100: #eee9e2;
+  --concrete-300: #c9beb2;
+  --ink: #293a47;
+  --muted: #68747c;
+  --brand-gold: #c6a383;
+  --brand-gold-light: #e2c79f;
+  --brand-gold-deep: #806047;
+  --white: #ffffff;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--concrete-50);
+  font-family: Arial, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+a { text-decoration: none; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+::selection { color: white; background: var(--brand-gold-deep); }
+
+.container-shell { width: min(100% - 2rem, 1200px); margin-inline: auto; }
+.section-space { padding-block: clamp(5rem, 10vw, 9rem); }
+.focus-ring:focus-visible { outline: 3px solid var(--brand-gold); outline-offset: 4px; }
+.overlay-screen {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.reveal { transition: opacity .65s ease, transform .65s ease; }
+.reveal[data-visible="false"] { opacity: 0; transform: translateY(22px); }
+.reveal[data-visible="true"] { opacity: 1; transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  .reveal[data-visible] { opacity: 1; transform: none; }
+}
