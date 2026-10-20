@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { siteData } from "@/data/site-data";
+import { organizationJsonLd } from "@/lib/seo";
 
 import "./globals.css";
 
@@ -42,6 +43,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ko">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   );

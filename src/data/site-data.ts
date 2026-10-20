@@ -45,6 +45,8 @@ export const siteData = {
       slug: "tor-self-supporting-wall",
       title: "TOR 자립식 옹벽",
       description: "TOR 자립식옹벽은 협소한 공간에서도 구조적으로 안전한 시공이 가능하고 경제성과 시공성을 동시에 충족하는 옹벽시스템입니다.",
+      seoTitle: "자립식 옹벽(TOR)",
+      seoDescription: "자립식 옹벽(TOR)은 협소한 공간에도 적용 가능한 안전하고 경제적인 옹벽 설계·시공 시스템입니다.",
       media: { id: "business-01", title: "TOR 자립식 옹벽", description: "", alt: "TOR 자립식 옹벽 시공 사례", width: 2400, height: 1351, src: "/images/business/tor-self-supporting-wall.jpg" },
       overview: ["타인의 토지를 침범하지 않으면서 용지 경계 지역에 인접하여 옹벽을 시공 할 수 있는 공법", "연직형 지중삽입체(H-Pile)에 프리캐스트 패널을 설치하고 H-Pile파일을 보강하여 지지력이 보강되도록 함으로서 옹벽의 내구성 및 안정성을 향상시킨 옹벽", "굴착면에 위치한 H-Pile을 보강하여 토압에 충분히 견딜 수 있는 H-Pile 변위 저항 구조"],
       detailSectionTitle: "설치 순서",

@@ -8,6 +8,8 @@ export interface BusinessItem {
   slug: string;
   title: string;
   description: string;
+  seoTitle?: string;
+  seoDescription?: string;
   overview: string[];
   media: MediaItem;
   detailSectionTitle: string;
